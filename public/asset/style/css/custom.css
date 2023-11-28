@@ -1,0 +1,124 @@
+.table-header-flex {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-flex {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.form-member-space {
+    padding: 5px;
+}
+
+.memberprofile {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr td {
+    text-transform: capitalize;
+}
+
+.nav-style {
+    background-color: #004373;
+    /*#0b2c4b; */
+
+    color: #ecd08a;
+}
+
+.nav-style a:link {
+    color: #ecd08a;
+}
+
+.header-link {
+    color: #ecd08a !important;
+}
+
+.header-link:hover {
+    background-color: #ecd08a;
+    color: black !important;
+}
+
+.federal-logo:hover {
+    font-size: 24rem;
+}
+
+.footer-icon:hover {
+    opacity: 0.7;
+    font-size: 1.6rem;
+}
+
+.fa-facebook:hover {
+    background-color: #000dff;
+}
+
+.fa-twitter:hover {
+    background-color: #179cf0;
+}
+
+.fa-telegram:hover {
+    background-color: #31a8e0;
+}
+
+.fa-youtube:hover {
+    background-color: #e71b10;
+}
+
+.fa-globe:hover {
+    background-color: #179cf0;
+}
+
+.visit-ethiopia:hover {
+    background-color: #ecd08a;
+}
+
+.visit-ethiopia {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.footer-icon {
+    margin: 0.5rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.headerlist {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstlogo {
+    display: none;
+}
+.paragraph {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 991px) {
+    .headertext {
+        display: none;
+    }
+}
